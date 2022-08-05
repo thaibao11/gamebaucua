@@ -1,0 +1,46 @@
+.game_bau_cua {
+    background: rgb(3, 145, 38);
+    
+}
+
+.game_bau_cua .total_bet {
+    border: 2px solid;
+    
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: #f9f926;
+    color: green;
+    font-weight: bold;
+
+}
+
+.game_bau_cua .box_roll img{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+.game_bau_cua .box_roll {
+    background: white;
+    border: 1px solid gray;
+    text-align: center;
+    height: 300px;
+    border-radius: 50%;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box_bet .button_bet {
+    border: 1px solid;
+    padding: 10px 30px;
+    background: #f9f926;
+}
+
+.box_bet .button_bet .fas {
+    border: 1px solid gray;
+    padding: 4px;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
